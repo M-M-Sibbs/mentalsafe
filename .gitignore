@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Test output
+.test-build/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android signing — NEVER commit these
+android/key.properties
+*.jks
+*.keystore
+mobile/android/local.properties
+
+# iOS
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

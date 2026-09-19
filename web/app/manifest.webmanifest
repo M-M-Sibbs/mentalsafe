@@ -1,0 +1,47 @@
+{
+  "name": "Mental SafeZw — Mental Health Support in Zimbabwe",
+  "short_name": "Mental SafeZw",
+  "description": "Free, confidential mental health screening using validated clinical tools, plus Zimbabwean crisis lines and support services.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdfcfa",
+  "theme_color": "#16a34a",
+  "lang": "en-ZW",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Get help now",
+      "short_name": "Crisis",
+      "description": "Crisis helplines available in Zimbabwe",
+      "url": "/crisis"
+    },
+    {
+      "name": "Take an assessment",
+      "short_name": "Assess",
+      "description": "Validated mental health screening questionnaires",
+      "url": "/assessments"
+    }
+  ]
+}

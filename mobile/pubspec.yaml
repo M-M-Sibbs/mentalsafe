@@ -1,0 +1,43 @@
+name: mental_safezw
+description: Mental SafeZw — mental health screening and support for Zimbabwe.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # WebView host for the Next.js app deployed to Vercel.
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.3.0
+  webview_flutter_wkwebview: ^3.17.0
+
+  # Opens tel:, https: and whatsapp: links in the platform handler rather than
+  # trying to load them inside the WebView.
+  url_launcher: ^6.3.1
+
+  # Lets the shell show a useful offline screen instead of a browser error.
+  connectivity_plus: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#16a34a"
+  adaptive_icon_foreground: "assets/icon-foreground.png"
