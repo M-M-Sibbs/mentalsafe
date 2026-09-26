@@ -12,7 +12,7 @@
     "test": "tsc lib/instruments.ts --outDir .test-build --module esnext --target es2020 --moduleResolution bundler --skipLibCheck && node tests/scoring.test.mjs"
   },
   "dependencies": {
-    "next": "^16.3.5",
+    "next": "^16.3.6",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },
