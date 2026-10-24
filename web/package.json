@@ -12,14 +12,14 @@
     "test": "tsc lib/instruments.ts --outDir .test-build --module esnext --target es2020 --moduleResolution bundler --skipLibCheck && node tests/scoring.test.mjs"
   },
   "dependencies": {
-    "next": "^16.3.5",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
-    "@types/react": "^19.0.7",
-    "@types/react-dom": "^19.0.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.28",
     "tailwindcss": "^3.4.17",
